@@ -30,10 +30,15 @@ the example. An array of maps would be a good choice.
 
 public class App {
 
-    static Scanner input = new Scanner;
+    static Scanner input = new Scanner(System.in);
 
     public static void main(String[]args) {
+        App myApp = new App();
 
+        String quote = myApp.getQuote();
+        String speaker = myApp.getSpeaker();
+        String message = myApp.generateMessage(quote, speaker);
+        myApp.printMessage(message);
 
     }
 
