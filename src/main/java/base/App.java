@@ -3,6 +3,11 @@ package base;
 import java.util.Scanner;
 
 /*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Ashley Mojica
+ */
+
+/*
 Exercise 3 - Printing Quotes:
 
 Quotation marks are often used to denote the start and end of a string. But sometimes we need to print
